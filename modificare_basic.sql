@@ -10,11 +10,13 @@ INSERT INTO users (name, mail, phone, date_of_birth, address) VALUES ('Lucasandr
 INSERT INTO  books (title, author, isbn, year_realeased) VALUE  ('Luceafarul','Eminescu',942343243,1920-12-10);
 
 
+
 -- updatin la toate randurile dintr un tabel
 UPDATE users SET phone = 107229238;
 
 
 --update la mai multe coloane la toate randurile
+
 UPDATE users SET name = 'Anony', phone = 65463634;
 
 
